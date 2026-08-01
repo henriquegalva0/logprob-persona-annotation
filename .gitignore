@@ -1,0 +1,22 @@
+# ---- Sistema / lixo ----
+.DS_Store
+**/._*
+Thumbs.db
+
+# ---- Dados e material interno da pesquisa ----
+# (NÃO fazem o app rodar e/ou não devem ser públicos)
+
+# Base de dados bruta (sensível — fica só no Google Sheets/Drive)
+persona_attack_response.csv
+
+# Material de referência interno (briefing, fonte do logo)
+style/
+
+# Protocolo científico interno (metodologia — não é do app)
+workflow.md
+
+# Instrução de scaffolding do repositório
+OPENCODE.md
+
+# Doc para agentes de código (manutenção)
+AGENTS.md

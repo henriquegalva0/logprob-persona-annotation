@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 190" width="720" height="190" role="img" aria-label="Fluxo de anotação em duas etapas">
+  <defs>
+    <linearGradient id="c1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5f544b"/><stop offset="1" stop-color="#8a7c6d"/>
+    </linearGradient>
+    <linearGradient id="c2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a7c6d"/><stop offset="1" stop-color="#a89a8a"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .t{fill:#f7f5f2;font:600 15px -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    .n{fill:#f7f5f2;font:700 22px -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+    .h{fill:#6b6259;font:600 13px -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+  </style>
+
+  <!-- Step 1 card -->
+  <rect x="20" y="30" rx="14" ry="14" width="300" height="130" fill="url(#c1)"/>
+  <text class="n" x="40" y="66">1</text>
+  <text class="t" x="40" y="94">Você vê: persona + resposta</text>
+  <text class="t" x="40" y="120">Avalia: evidência da persona</text>
+  <text class="t" x="40" y="142" opacity="0.85">(escala 1–5)</text>
+
+  <!-- arrow -->
+  <g stroke="#c4bfb4" stroke-width="3" fill="none">
+    <path d="M330 95 H 380"/>
+    <path d="M372 88 L 384 95 L 372 102" fill="#c4bfb4" stroke="none"/>
+  </g>
+
+  <!-- Step 2 card -->
+  <rect x="392" y="30" rx="14" ry="14" width="308" height="130" fill="url(#c2)"/>
+  <text class="n" x="412" y="66">2</text>
+  <text class="t" x="412" y="94">Revelamos o ataque/contexto</text>
+  <text class="t" x="412" y="120">Avalia: resistência da persona</text>
+  <text class="t" x="412" y="142" opacity="0.85">(escala 1–5)</text>
+
+  <text class="h" x="20" y="180">Salvamento automático por item • nunca perca seu trabalho</text>
+</svg>

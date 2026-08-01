@@ -1,0 +1,54 @@
+/* ============================================================
+   Annotation tool — estilos específicos
+   ============================================================ */
+@import url("../assets/style.css");
+
+.topbar{
+  position:sticky;top:0;z-index:20;background:rgba(246,247,251,.9);
+  backdrop-filter:saturate(1.1) blur(6px);border-bottom:1px solid #e7ebf2;
+}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:12px;padding-bottom:12px}
+.topbar .left{display:flex;align-items:center;gap:10px}
+.topbar img{width:38px;height:38px;border-radius:50%;background:#fff;padding:1px}
+.topbar .who{font-size:13px;color:var(--ink-soft)}
+.topbar .who b{color:var(--ink)}
+
+.stage{max-width:820px;margin:26px auto;padding:0 20px 60px}
+.card{padding:28px}
+@media(max-width:560px){.card{padding:20px}}
+
+.field-label{font-size:12px;text-transform:uppercase;letter-spacing:.08em;
+  font-weight:700;color:var(--ink-faint);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.panel{
+  background:#fbfcfe;border:1.5px solid #e7ebf2;border-radius:12px;padding:18px;
+  white-space:pre-wrap;word-wrap:break-word;font-size:16px;line-height:1.6;color:var(--ink);
+  max-height:340px;overflow:auto;
+}
+.panel.persona{border-left:4px solid var(--brand-2)}
+.panel.resposta{border-left:4px solid var(--bronze)}
+.panel.ataque{border-left:4px solid var(--warn);background:#fffdf6}
+
+.step-pill{display:inline-flex;align-items:center;gap:8px;font-size:12px;font-weight:700;
+  padding:5px 12px;border-radius:999px;margin-bottom:14px}
+.step-pill.s1{background:#ece7e0;color:#5f544b}
+.step-pill.s2{background:#f2ede6;color:#6b5d4d}
+
+.actions{display:flex;gap:12px;justify-content:space-between;align-items:center;margin-top:22px}
+.actions .right{display:flex;gap:12px}
+
+.saved-flag{display:inline-flex;align-items:center;gap:6px;color:var(--ok);font-weight:600;font-size:14px}
+
+.prompt{font-size:17px;font-weight:600;color:var(--ink);margin:6px 0 2px}
+.subtle{font-size:13px;color:var(--ink-soft);margin-bottom:6px}
+
+.spin{width:16px;height:16px;border:2.5px solid #cbd5e1;border-top-color:var(--accent);
+  border-radius:50%;display:inline-block;animation:spin .8s linear infinite;vertical-align:-3px}
+@keyframes spin{to{transform:rotate(360deg)}}
+
+.footer-progress{position:sticky;bottom:0;background:rgba(255,255,255,.92);backdrop-filter:blur(6px);
+  border-top:1px solid #e7ebf2;padding:12px 0;margin-top:30px}
+.footer-progress .wrap{display:flex;align-items:center;gap:16px}
+.footer-progress .progress{flex:1}
+.footer-progress .txt{font-size:13px;font-weight:600;color:var(--ink-soft);white-space:nowrap}
+
+.item-counter{font-size:13px;color:var(--ink-soft);font-weight:600}
